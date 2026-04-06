@@ -3,7 +3,7 @@
 ![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue.svg) 
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-lightgrey.svg)
-![Award](https://img.shields.io/badge/Award-1st_Place_in_INTRODUCTION_TO_CIRCUITS_THEORY_AND_DIGITAL_ELECTRONICS-gold.svg)
+![Award](https://img.shields.io/badge/Award-1st_Place_in_ICTDE-gold.svg)
 
 > 本專案為國立成功大學114-1「數位電路導論」課程期末專題第一名作品。
 > 透過整合 ROS 2 框架與 ESP32 微控制器，實現 12 自由度（12-DOF）六足機器人的低延遲步態控制與即時運動學解算，展現軟硬體協同設計 (Hardware-Software Co-design) 之系統架構能力。
@@ -48,10 +48,10 @@
 | **Power Supply** | 12V / 10A AC/DC Adapter| 為 12 顆高扭力伺服馬達提供瞬間大電流，確保多軸連動時不會因壓降而導致控制器重啟。 |
 | **Structure** | Custom Hexapod Frame | 六足機器人實體機構支撐，確保多軸連動時的結構剛性與幾何對稱性。 |
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/70591405-d379-4d2e-add5-54eab7e1b819" alt="Hardware Board" width="500">
+  <img src="https://github.com/user-attachments/assets/a7653139-2633-4227-a940-65b92d0868f8" alt="Hardware Board" width="500">![IMG_02671]()
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4bec7ee4-2788-4760-8b81-8ce7daf431b9" alt="Serial Bus Servos" width="500">
+  <img src="https://github.com/user-attachments/assets/8e1fcf93-48db-4223-8cf7-252d6949433c" alt="Serial Bus Servos" width="500">![IMG_85451]()
 </p>
 -----
 
