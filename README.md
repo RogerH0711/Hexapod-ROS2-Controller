@@ -109,16 +109,16 @@ python3 src/run_publisher_final.py
 
 本專案為 6 人團隊協作成果，感謝所有成員的專業分工與投入，讓這個六足機器人得以從理論走向實體。以下為團隊成員與職責劃分：
 
-* **[謝承祐]** ([@RogerH0711](https://github.com/RogerH0711)) - **Project Lead & System Integrator (專案組長與系統整合)**
+* **[謝〇祐]** ([@RogerH0711](https://github.com/RogerH0711)) - **Project Lead & System Integrator (專案組長與系統整合)**
   * 統籌專案開發進度與系統架構規劃。
   * 負責建置 ROS 2 開發環境，並擔任上位機 (PC) 操作與全機軟硬體之最終系統整合。
-* **[蔡富森]**, **[廖俊嘉]** - **Algorithm & Software Engineers (演算法與軟體開發)**
+* **[蔡〇森]**, **[廖〇嘉]** - **Algorithm & Software Engineers (演算法與軟體開發)**
   * 規劃底層程式碼架構。
   * 開發核心三角步態演算法 (`run_publisher_final.py`)，並實作非同步多執行緒與中斷控制邏輯。
-* **[陳睦融]**, **[顏椲勳]** - **Hardware & Mechanical Engineers (硬體與機構工程)**
+* **[陳〇融]**, **[顏〇勳]** - **Hardware & Mechanical Engineers (硬體與機構工程)**
   * 負責六足機器人實體機構組裝與伺服馬達走線設計。
   * 規劃 ESP32 控制板電源分配與硬體線路連接。
-* **[黃子銓]** - **QA & Field Testing (測試與調校)**
+* **[黃〇銓]** - **QA & Field Testing (測試與調校)**
   * 執行伺服馬達零點硬體校正。
   * 負責步態參數調優與實際場域運行之壓力測試。
 <!-- end list -->
