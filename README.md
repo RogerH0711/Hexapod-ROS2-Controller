@@ -48,10 +48,10 @@
 | **Power Supply** | 12V / 10A AC/DC Adapter| 為 12 顆高扭力伺服馬達提供瞬間大電流，確保多軸連動時不會因壓降而導致控制器重啟。 |
 | **Structure** | Custom Hexapod Frame | 六足機器人實體機構支撐，確保多軸連動時的結構剛性與幾何對稱性。 |
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a7653139-2633-4227-a940-65b92d0868f8" alt="Hardware Board" width="500">![IMG_02671]()
+  <img src="https://github.com/user-attachments/assets/a7653139-2633-4227-a940-65b92d0868f8" alt="Hardware Board" width="500">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e1fcf93-48db-4223-8cf7-252d6949433c" alt="Serial Bus Servos" width="500">![IMG_85451]()
+  <img src="https://github.com/user-attachments/assets/8e1fcf93-48db-4223-8cf7-252d6949433c" alt="Serial Bus Servos" width="500">
 </p>
 -----
 
