@@ -3,7 +3,7 @@
 ![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue.svg) 
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-lightgrey.svg)
-![Award](https://img.shields.io/badge/Award-1st_Place_in_Digital_Circuit_Design-gold.svg)
+![Award](https://img.shields.io/badge/Award-1st_Place_in_INTRODUCTION_TO_CIRCUITS_THEORY_AND_DIGITAL_ELECTRONICS.svg)
 
 > 本專案為國立成功大學114-1「數位電路導論」課程期末專題第一名作品。
 > 透過整合 ROS 2 框架與 ESP32 微控制器，實現 12 自由度（12-DOF）六足機器人的低延遲步態控制與即時運動學解算，展現軟硬體協同設計 (Hardware-Software Co-design) 之系統架構能力。
@@ -20,7 +20,7 @@
 
 ![Full Robot View](https://github.com/user-attachments/assets/396aaf5b-394f-4dcf-a906-0b74dd5aedd9)
 
-```text
+
 [ Upper Level: ROS 2 / PC ]
  ├── 🧠 Gait Controller (run_publisher_final.py)  <-- 本專案核心演算法
  │    ├── Multi-threading Keyboard Listener (異步指令接收)
