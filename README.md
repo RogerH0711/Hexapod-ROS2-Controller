@@ -1,4 +1,3 @@
-````markdown
 # 🕷️ Hexapod-ROS2-Controller: 12-DOF 機器人軟硬體整合控制系統
 
 ![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue.svg) 
@@ -33,7 +32,6 @@
 [ Lower Level: Hardware / ESP32 ]
  ├── 🔌 ESP32 Microcontroller (Firmware: Serial Parsing & PWM)
  └── ⚙️ 12 x Hiwonder Serial Bus Servos
-````
 
 -----
 
