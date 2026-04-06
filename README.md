@@ -3,7 +3,7 @@
 ![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue.svg) 
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-lightgrey.svg)
-![Award](https://img.shields.io/badge/Award-1st_Place_in_INTRODUCTION_TO_CIRCUITS_THEORY_AND_DIGITAL_ELECTRONICS.svg)
+![Award](https://img.shields.io/badge/Award-1st_Place_in_INTRODUCTION_TO_CIRCUITS_THEORY_AND_DIGITAL_ELECTRONICS-gold.svg)
 
 > 本專案為國立成功大學114-1「數位電路導論」課程期末專題第一名作品。
 > 透過整合 ROS 2 框架與 ESP32 微控制器，實現 12 自由度（12-DOF）六足機器人的低延遲步態控制與即時運動學解算，展現軟硬體協同設計 (Hardware-Software Co-design) 之系統架構能力。
@@ -20,7 +20,7 @@
 
 ![Full Robot View](https://github.com/user-attachments/assets/396aaf5b-394f-4dcf-a906-0b74dd5aedd9)
 
-
+```text
 [ Upper Level: ROS 2 / PC ]
  ├── 🧠 Gait Controller (run_publisher_final.py)  <-- 本專案核心演算法
  │    ├── Multi-threading Keyboard Listener (異步指令接收)
@@ -32,7 +32,7 @@
 [ Lower Level: Hardware / ESP32 ]
  ├── 🔌 ESP32 Microcontroller (Firmware: Serial Parsing & PWM)
  └── ⚙️ 12 x Hiwonder Serial Bus Servos
-
+```
 -----
 
 ## 🛠️ Hardware Specifications (硬體與零件選型)
@@ -43,7 +43,7 @@
 | :--- | :--- | :--- |
 | **Microcontroller** | Bus Servo Driver HAT (A) with **ESP32-WROOM-32E** | 擔任底層核心硬體，負責解析 ROS 2 傳來的串列封包，並生成對應的控制訊號。利用其雙核心與高時脈優勢處理即時控制。 |
 | **Actuators** | **Hiwonder** Serial Bus Servos (45kg.cm High Torque) x 12 | 提供 12 自由度的關節動力。採用串列匯流排馬達而非傳統 PWM 馬達，大幅減少配線複雜度，並支援角度回讀功能。 |
-| **Power Supply** | 11.1V 3S LiPo Battery (建議規格) | 為 12 顆高扭力伺服馬達提供瞬間大電流，確保多軸連動時不會因壓降而導致控制器重啟。 |
+| **Power Supply** | 12V / 10A AC/DC Adapter| 為 12 顆高扭力伺服馬達提供瞬間大電流，確保多軸連動時不會因壓降而導致控制器重啟。 |
 | **Structure** | Custom Hexapod Frame | 六足機器人實體機構支撐，確保多軸連動時的結構剛性與幾何對稱性。 |
 
 -----
@@ -67,7 +67,7 @@
 
   * **[zlink-bus-servo-driver](https://github.com/alianlbj23/zlink-bus-servo-driver.git)**
     作為 ROS 2 與匯流排馬達之間的通訊橋樑，負責處理底層的封包轉換與序列埠發送。
-  * **[ESP32\_servo\_control](https://www.google.com/search?q=https://github.com/Steven0811/ESP32_servo_control.git)**
+  * **[ESP32\_servo\_control](https://github.com/Steven0811/ESP32_servo_control.git)**
     燒錄於 ESP32 的韌體核心，負責接收上位機指令並輸出高精度的 PWM 訊號至 12 顆伺服馬達。
   * **[tools](https://github.com/screamlab/tools.git)**
     用於機器人組裝初期的零點校正與環境變數建置。
