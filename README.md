@@ -18,7 +18,9 @@
 
 本專案採用**軟硬體解耦**的設計思維，將上層的演算法邏輯與底層的硬體驅動分離，以確保系統的高擴充性與穩定度。
 
-![Full Robot View](https://github.com/user-attachments/assets/396aaf5b-394f-4dcf-a906-0b74dd5aedd9)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/396aaf5b-394f-4dcf-a906-0b74dd5aedd9" alt="Full Robot View" width="500">
+</p>
 
 ```text
 [ Upper Level: ROS 2 / PC ]
@@ -45,7 +47,12 @@
 | **Actuators** | **Hiwonder** Serial Bus Servos (45kg.cm High Torque) x 12 | 提供 12 自由度的關節動力。採用串列匯流排馬達而非傳統 PWM 馬達，大幅減少配線複雜度，並支援角度回讀功能。 |
 | **Power Supply** | 12V / 10A AC/DC Adapter| 為 12 顆高扭力伺服馬達提供瞬間大電流，確保多軸連動時不會因壓降而導致控制器重啟。 |
 | **Structure** | Custom Hexapod Frame | 六足機器人實體機構支撐，確保多軸連動時的結構剛性與幾何對稱性。 |
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/70591405-d379-4d2e-add5-54eab7e1b819" alt="Hardware Board" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4bec7ee4-2788-4760-8b81-8ce7daf431b9" alt="Serial Bus Servos" width="500">
+</p>
 -----
 
 ## 💻 Core Contribution: Gait Controller
@@ -76,11 +83,11 @@
 
 ## 🚀 How to Run (執行方式)
 
-### 1\. Environment Setup
+### 1. Environment Setup
 
 請確保已安裝 ROS 2 (Humble/Foxy) 並編譯上述依賴庫的工作區 (Workspace)。
 
-### 2\. Launching the Controller
+### 2. Launching the Controller
 
 ```bash
 # 啟動底層通訊節點 (依賴庫)
