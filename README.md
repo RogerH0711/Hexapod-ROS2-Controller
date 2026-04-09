@@ -112,7 +112,7 @@ python3 src/run_publisher_final.py
 * **[謝〇祐]** ([@RogerH0711](https://github.com/RogerH0711)) - **Project Lead & System Integrator (專案組長與系統整合)**
   * 統籌專案開發進度與系統架構規劃。
   * 負責建置 ROS 2 開發環境，並擔任上位機 (PC) 操作與全機軟硬體之最終系統整合。
-* **[蔡〇森]**, **[廖〇嘉]** - **Algorithm & Software Engineers (演算法與軟體開發)**
+* **[蔡〇森]** ([@Andy5533](https://github.com/Andy5533)) , **[廖〇嘉]** ([@PatrickLoveCode](https://github.com/PatrickLoveCode)) - **Algorithm & Software Engineers (演算法與軟體開發)**
   * 規劃底層程式碼架構。
   * 開發核心三角步態演算法 (`run_publisher_final.py`)，並實作非同步多執行緒與中斷控制邏輯。
 * **[陳〇融]**, **[顏〇勳]** - **Hardware & Mechanical Engineers (硬體與機構工程)**
